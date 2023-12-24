@@ -1,0 +1,6 @@
+cloud realisation:
+Streamlit URL:
+https://pefinalgit-ak4fqhbnmwfjm2hjtgb7vr.streamlit.app/
+
+FastAPI URL:
+http://158.160.137.174:8000/
