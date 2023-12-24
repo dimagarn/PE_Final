@@ -2,7 +2,6 @@ from transformers import pipeline
 import streamlit as st
 
 
-
 def classify(sentences):
     classifier = pipeline(task="text-classification", model="SamLowe/roberta-base-go_emotions", top_k=None)
 
