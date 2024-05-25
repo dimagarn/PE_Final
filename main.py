@@ -8,7 +8,9 @@ class Item(BaseModel):
 
 
 app = FastAPI()
-classifier = pipeline(task="text-classification", model="SamLowe/roberta-base-go_emotions", top_k=None)
+classifier = pipeline(task="text-classification",
+                      model="SamLowe/roberta-base-go_emotions",
+                      top_k=None)
 
 
 @app.get("/")
@@ -16,9 +18,9 @@ async def root():
     return {'model': 'Text Classifier'}
 
 
-#@app.get("/predict/")
-#def predict():
-#    return classifier('I like dogs!')[0]
+# @app.get("/predict/")
+# def predict():
+#     return classifier('I like dogs!')[0]
 
 
 @app.post("/predict/")

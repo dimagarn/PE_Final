@@ -1,6 +1,7 @@
 from fastapi.testclient import TestClient
 from main import app
 
+
 client = TestClient(app)
 
 
@@ -24,6 +25,7 @@ def test_predict_negative():
     json_data = response.json()
     assert response.status_code == 200
     assert json_data[0]["label"] == 'anger'
+
 
 def test_predict_desire():
     response = client.post("/predict/",
