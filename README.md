@@ -1,5 +1,7 @@
+[![flake8 Lint](https://github.com/dimagarn/PE_Final/actions/workflows/flake8-Lint.yml/badge.svg)](https://github.com/dimagarn/PE_Final/actions/workflows/flake8-Lint.yml)
+[![Python application](https://github.com/dimagarn/PE_Final/actions/workflows/python-app.yml/badge.svg)](https://github.com/dimagarn/PE_Final/actions/workflows/python-app.yml)
 # UrFU_SE_Final
-Итоговый проект по предмету "Программная инженерия"
+Итоговый проект по предмету "Программная инженерия" (осенний семетр, 2023г)
 ## Участники команды
 - Гарнышев Дмитрий Александрович, РИМ-130907;
 - Коренев Иван Александрович, РИМ-130908;
